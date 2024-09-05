@@ -21,9 +21,7 @@ Clean Build Artifacts: To remove the compiled files and clean the
 project directory, run:
 
 make clean
-Rebuild the Project: To compile the project from scratch, you can use:
 
-make a
 
 
 How to Play To play the game, use the following controls:
