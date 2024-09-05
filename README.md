@@ -3,7 +3,7 @@ The Maze Project
 Welcome to the Maze project! This is a simple maze game 
 built using C and SDL2.
 
-Cloning the Repository To clone the repository, run the following
+To clone the repository, run the following
 command in your terminal:
 
 git clone https://github.com/borisngong/Maze-project.git
@@ -17,8 +17,7 @@ This will create an executable file called play_game in the project directory.
 
 to Run the it type: ./play_game
 
-Clean Build Artifacts: To remove the compiled files and clean the
-project directory, run:
+To remove the compiled files and clean the project directory, run:
 
 make clean
 
