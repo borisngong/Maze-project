@@ -7,15 +7,15 @@ Cloning the Repository To clone the repository, run the following
 command in your terminal:
 
 git clone https://github.com/borisngong/Maze-project.git
-Replace your-username with your actual GitHub username.
 
-Compilation To compile the project, navigate to the project directory and run
-the following command:
+
+To compile the project, navigate to the project cd Maze-project
 
 make
+
 This will create an executable file called play_game in the project directory.
 
-Additional make Commands
+to Run the it type: ./play_game
 
 Clean Build Artifacts: To remove the compiled files and clean the
 project directory, run:
