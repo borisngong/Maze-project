@@ -1,5 +1,6 @@
 The Maze Project
-Welcome to The Maze Project, a simple yet exciting maze game built using C and SDL2. Navigate a 3D world generated from a 2D map using raycasting techniques.
+Welcome to The Maze Project, a simple yet exciting maze game built using C and
+SDL2. Navigate a 3D world generated from a 2D map using raycasting techniques.
 
 To clone the repository, run the following command in your terminal:
 
