@@ -1,73 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Maze Game - 2D Adventure">
-    <title>Maze Game</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Maze Game - 2D Adventure" />
+    <title>The Maze Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Intro Section -->
     <header class="intro">
-        <div class="intro-content">
-            <h1>Maze Game</h1>
-            <p>Explore the maze, avoid obstacles, and find your way out!</p>
-            <nav>
-                <ul>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
-            <a href="YOUR_DEPLOYED_APP_URL" class="btn">Play the Game</a>
+      <div class="intro-content">
+        <h1>The Maze Game</h1>
+        <p>
+          Explore the maze, solve puzzles, and find your way out of the
+          labyrinth!
+        </p>
+        <nav class="navi">
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+        <a
+          href="https://github.com/borisngong/Maze-project/blob/master/README.md"
+          class="btn"
+          >Instructions on How to Play</a
+        >
+        <div class="btn-container">
+          <a
+            href="https://github.com/borisngong/Maze-project/archive/refs/heads/main.zip"
+            class="btn"
+            >Download Game</a
+          >
+          <div class="clone-section">
+            <p>Or clone the repository using Git:</p>
+            <pre>git clone https://github.com/borisngong/Maze-project.git</pre>
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- Feature Section -->
     <section id="features" class="features">
-        <h2>Key Features</h2>
-        <div class="feature">
-            <img src="raycasting.png" alt="Raycasting Feature">
-            <h3>Raycasting Algorithm</h3>
-            <p>Accurate wall detection using optimized raycasting to create realistic 3D maze walls.</p>
-        </div>
-        <div class="feature">
-            <img src="player_movement.png" alt="Player Movement">
-            <h3>Player Movement & Collision</h3>
-            <p>Smooth WASD player controls and collision detection ensure a challenging experience.</p>
-        </div>
-        <div class="feature">
-            <img src="environment.png" alt="Environment">
-            <h3>Textured Environment</h3>
-            <p>Immersive environment rendering with walls and textures, powered by SDL2.</p>
-        </div>
+      <h2>Key Features</h2>
+      <div class="feature">
+        <img src="templates/raycast-used.png" alt="Raycasting Feature" />
+        <h3>Raycasting Algorithm With 25X25 Map</h3>
+        <p>With optimized raycasting techniques for real 3D wall experiences</p>
+      </div>
+      <div class="feature">
+        <img src="templates/raycaster_red.gif" alt="Player Movement" />
+        <h3>Fluid Player Movement</h3>
+        <p>
+          W A S D controls keys ensure smooth and precise player movements
+          through the maze.
+        </p>
+      </div>
+      <div class="feature">
+        <img src="templates/pic1.png" alt="Textured Environment" />
+        <h3>Immersive Environment</h3>
+        <p>
+          SDL2 rendering enables beautifully detailed scenes with a rich texture
+        </p>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <h2>About the Project</h2>
-        <p>The Maze Game was inspired by my interest in exploring game development with a focus on performance optimization. After encountering numerous challenges with SDL2 installation and raycasting algorithms, I was determined to overcome these technical hurdles. This project is part of my portfolio for Holberton School.</p>
-        <p>Links to team profiles:</p>
+      <h2>About the Project</h2>
+      <p>
+        This portfolio project, part of my ALX Software Engineering course,
+        aimed to create a 2D maze game using SDL2 and raycasting techniques. The
+        goal was to transform a 2D map into a 3D maze environment, allowing the
+        player to navigate through an immersive space
+      </p>
+      <p>
+        Raycasting was used to simulate 3D walls by casting rays from the
+        player's position and determining the nearest wall's distance. This
+        creates the illusion of depth, enhancing the visual experience
+      </p>
+      <p>
+        Despite the initial project scope, I faced challenges due to time
+        constraints and technical complexities. However, I successfully
+        implemented core mechanics such as player movement, collision detection,
+        and basic environment rendering
+      </p>
+      <p>
+        Future improvements will include adding features like enemies, weather
+        effects, lighting, a scoring system, and multiplayer options to enhance
+        gameplay
+      </p>
+      <p>
+        I, Ngong Boris Kukwah, overcame numerous technical obstacles to complete
+        this project from start to finish, handling all aspects of development
+        and documentation
+      </p>
+
+      <div class="boro">
+        <p><b>Links to My profiles:</b></p>
         <ul>
-            <li><a href="YOUR_LINKEDIN_URL">LinkedIn</a></li>
-            <li><a href="YOUR_GITHUB_URL">GitHub</a></li>
-            <li><a href="YOUR_TWITTER_URL">Twitter</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/ngong-boris-kukwah-34063821a/"
+              >LinkedIn</a
+            >
+          </li>
+          <li><a href="https://github.com/borisngong">GitHub</a></li>
+          <li><a href="https://twitter.com/boro_didier1">Twitter</a></li>
         </ul>
-        <p><a href="YOUR_GITHUB_REPO_URL">GitHub Repository</a></p>
+        <p>
+          <a href="https://github.com/borisngong/Maze-project"
+            >Game's GitHub Repository</a
+          >
+        </p>
+      </div>
     </section>
 
-    <!-- Optional Video Section -->
+    <!-- Video Section -->
     <section id="video" class="video">
-        <h2>Project Walkthrough</h2>
-        <video controls>
-            <source src="demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+      <h2>Maze Project Walkthrough</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/YdQrCRNYFEg"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
     </section>
 
     <footer>
-        <p>© 2024 Maze Game by Ngong Boris Kukwah. All rights reserved.</p>
+      <p>
+        © Ngong Boris Kukwah. September, 2024 - The Maze Project. All rights
+        reserved.
+      </p>
     </footer>
-</body>
+  </body>
 </html>
-
