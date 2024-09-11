@@ -35,8 +35,7 @@ To clean the project and remove compiled files, run:
 
 make clean
 
-Future Features:
-
+Future Features
 I plan to add the following features in future updates:
 
 Enemies and AI interactions
