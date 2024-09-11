@@ -11,10 +11,10 @@ bool getTextureFilePaths(const char *design, const char *textureFiles[])
 	if (strcmp(design, "visuals/maps/design_1") == 0)
 	{
 		const char *defaultTextures[TEX_COUNT] = {
-			"visuals/textures/walls-used.png",
-			"visuals/textures/walls-used.png",
-			"visuals/textures/jail.png",
-			"visuals/textures/jail.png",
+			"visuals/textures/showcasing-castle.png",
+			"visuals/textures/bricks.png",
+			"visuals/textures/castle_door.png",
+			"visuals/textures/pixel_walls.png",
 			"visuals/textures/pixel_floor.png",
 			"visuals/textures/pixel_ceiling.png"
 		};
@@ -23,12 +23,12 @@ bool getTextureFilePaths(const char *design, const char *textureFiles[])
 	else if (strcmp(design, "visuals/maps/design_1") == 0)
 	{
 		const char *altTextures[TEX_COUNT] = {
-			"textures/hedge1.png",
-			"textures/hedge2.png",
-			"textures/gate.png",
-			"textures/hedge1.png",
-			"textures/sky.png",
-			"textures/grass.png"
+			"visuals/textures/walls-used.png",
+			"visuals/textures/walls-used.png",
+			"visuals/textures/ceiling.png",
+			"visuals/textures/brick-wall-background-texture_1048-16945.png",
+			"visuals/textures/showcasing-castle.png",
+			"visuals/textures/showcasing-castle.png"
 		};
 		memcpy(textureFiles, altTextures, sizeof(altTextures));
 	}
