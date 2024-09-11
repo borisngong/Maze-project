@@ -1,34 +1,45 @@
 The Maze Project
+Welcome to The Maze Project, a simple yet exciting maze game built using C and SDL2. Navigate a 3D world generated from a 2D map using raycasting techniques.
 
-Welcome to the Maze project! This is a simple maze game 
-built using C and SDL2.
-
-To clone the repository, run the following
-command in your terminal:
+To clone the repository, run the following command in your terminal:
 
 git clone https://github.com/borisngong/Maze-project.git
 
+After Cloning, enter the repo using the comand below:
+cd Maze-project
 
-To compile the project, navigate to the project cd Maze-project
+Make sure you have gcc and make installed.
+
+When all thisis completed, we will have to compile the game, we do so
+by entering this below:
 
 make
 
-This will create an executable file called play_game in the project directory.
+Running the Game
+After successfully compiling the project, you can play by executing:
 
-to Run the it type: ./play_game
+./play_game
 
-To remove the compiled files and clean the project directory, run:
+
+Belo are game controls Controls
+
+W: Move forward
+S: Move backward
+A: Look left
+D: Look right
+
+
+
+To clean the project and remove compiled files, run:
 
 make clean
 
+Future Features:
 
+I plan to add the following features in future updates:
 
-How to Play To play the game, use the following controls:
-
-W: Move up
-A: Move left
-S: Move down
-D: Move right
-The goal is to navigate through the maze and reach the exit.
-
-
+Enemies and AI interactions
+Weather and lighting effects
+Scoring system
+Different levels of difficulty
+Multiplayer functionality
