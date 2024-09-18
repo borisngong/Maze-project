@@ -9,12 +9,13 @@ To install The Maze Project, follow these steps:
 
 ### Cloning the Repository
 
-To clone the repository, run the following command in your terminal:
-git clone https://github.com/borisngong/Maze-project.git
+In order to clone Repo, run the following command in your terminal:
+
+```git clone https://github.com/borisngong/Maze-project.git```
 
 After cloning, enter the repository using:
 
-cd Maze-project
+```cd Maze-project```
 
 ### Installing SDL2 with CMake
 
