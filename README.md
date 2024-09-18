@@ -1,8 +1,11 @@
 # The Maze Project
 
 I present to you **The Maze Project**, be ready to enter a 3D world that has been created  from a simple 2D map. With the use of a technique called raycasting, we introduce a game of maze navigation quite differently. The Maze Project is an enjoyable yet challenging game which involves navigating through a maze and replicate the classic games like the Shadow Warrior, Dome etc. This game has been implemented using C programming language and SDL2.
+Follow the guidelines below to install, run the game,  and exit.
 
 ## Installation
+
+To install The Maze Project, follow these steps:
 
 ### Cloning the Repository
 
@@ -62,18 +65,20 @@ git clone https://github.com/libsdl-org/SDL.git
 ### Compiling the Game
 
 Ensure you have **gcc** and **make** installed on your system. if not install on Ubuntu with:
-sudo apt update sudo apt install gcc make
+
+```sudo apt update sudo apt install gcc make```
 
 
 To compile the game, run:
 
-make
+```make```
 
 
 ## Running the Game in the SDL window
 
 After compilation, play the game by running the executable:
-./play_game
+
+```./play_game```
 
 
 To quit the game, press the **ESC** key.
@@ -89,7 +94,7 @@ To quit the game, press the **ESC** key.
 
 After compilation you can removed the compiled files by running:
 
-make clean
+```make clean```
 
 
 ## Future Features
