@@ -85,7 +85,7 @@ bool haulMapTextures(Game *game, char *design)
 	SDL_Surface * parsedOrigin[TEX_COUNT] = {NULL};
 	const char *textureFiles[TEX_COUNT];
 
-	/* Set default design if none is provided */
+	/* Set default design if none is providedd */
 	if (design == NULL || strcmp(design, "") == 0)
 	{
 		design = "maps/design_1";
