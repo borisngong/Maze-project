@@ -21,8 +21,8 @@
 
 /**
  * struct point_s - data structure for XY point coordinates of type double
- * @x: X coordinate
- * @y: Y coordinate
+ * @x: X coordinates
+ * @y: Y coordinates
  * Description: struct point
  */
 typedef struct point_s
