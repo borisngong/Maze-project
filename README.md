@@ -1,6 +1,6 @@
 # The Maze Project
 
-Welcome to **The Maze Project**, Get ready to enter a 3D world that has been created  from a simple 2D map. With the use of a technique called raycasting, we introduce a game of maze navigation quite differently. The Maze Project is an enjoyable yet challenging game in which involves navigating through a maze. This game has been implemented using C and SDL2.
+I present to you **The Maze Project**, be ready to enter a 3D world that has been created  from a simple 2D map. With the use of a technique called raycasting, we introduce a game of maze navigation quite differently. The Maze Project is an enjoyable yet challenging game which involves navigating through a maze and replicate the classic games like the Shadow Warrior, Dome etc. This game has been implemented using C programming language and SDL2.
 
 ## Installation
 
