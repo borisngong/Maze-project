@@ -13,7 +13,7 @@ all: $(OUT)
 $(OUT): $(SRC)
 	$(CC) $(CFLAGS) $(SRC) $(LDFLAGS) -o $(OUT)
 
-# Clean up
+# Cleaning up
 clean:
 	rm -f $(OUT)
 
