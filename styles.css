@@ -48,7 +48,7 @@ body {
 /* Button Styling */
 .btn {
   display: inline-block;
-  background-color: #ff4081; /* Pink Button */
+  background-color: #ff4081;
   color: white;
   padding: 12px 30px;
   font-size: 1.2em;
@@ -113,7 +113,7 @@ body {
   margin-top: 10px;
 }
 
-/* About Section */
+/* About Section styling*/
 .about {
   padding: 60px 20px;
   background-color: #f9f9f9;
