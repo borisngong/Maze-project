@@ -22,11 +22,11 @@ After cloning, enter the repository using:
 To install SDL2 using CMake, follow these steps:
 
 1. **Install CMake making sure version is above 3**: If no cmake exists, insall on Ubuntu using:
-2. sudo apt update sudo apt install cmake
+```sudo apt update sudo apt install cmake```
 
 
 2. **Download SDL2**: Clone the SDL2 repository:
-git clone https://github.com/libsdl-org/SDL.git
+```git clone https://github.com/libsdl-org/SDL.git```
 
 
 3. **Build and Install SDL2**:
