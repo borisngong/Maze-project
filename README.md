@@ -86,7 +86,7 @@ After compilation, play the game by running the executable:
 
 To quit the game, press the **ESC** key.
 
-## Controls
+## Game Controls
 
 - **W**: Move forward
 - **S**: Move backward
