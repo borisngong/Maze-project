@@ -3,6 +3,11 @@
 I present to you **The Maze Project**, be ready to enter a 3D world that has been created from a simple 2D map. With the use of a technique called raycasting, we introduce a game of maze navigation quite differently. The Maze Project is an enjoyable yet challenging game which involves navigating through a maze and replicate the classic games like the Shadow Warrior, Dome etc. This game has been implemented using C programming language and SDL2.
 Follow the guidelines below to install, run the game, and exit.
 
+## Inspiration
+
+Since the opportunity for a portfolio project entailed a default game project, I chose game creation. It was a perfect chance to bring my ideas to life, explore new mechanics, learn new concepts, and fulfill a long-standing dream of creating a game.
+My passion for gaming started in childhood and continues to this day, fueled by classic titles that offered captivating gameplay and memorable experiences, including Shadow Warrior. Inspired by these classics, I decided to focus on game creation for my portfolio project.
+
 ## Installation
 
 To install The Maze Project, follow these steps:
@@ -77,7 +82,7 @@ After compilation, play the game by running the executable:
 
 `./play_game`
 
-![Preview Image](visuals/textures/used-pic.png)
+![Game Preview Image](visuals/textures/used-pic.png)
 
 To quit the game, press the **ESC** key.
 
