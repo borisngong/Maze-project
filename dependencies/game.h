@@ -71,7 +71,7 @@ extern Game game;
 
 bool exit_maze(Game *game);
 
-int *loadMapFromFile(char *filename, int **map);
+int *loadMapsFromFile(char *filename, int **map);
 void drawEnvTexture(Game *game, SDL_Point mapPos, point_t rayDir,
 	double distToWall, double wallX, int drawEnd, int col, int wallSide);
 point_t getEnvPixelPos(SDL_Point mapPos, point_t rayDir, double wallX,
